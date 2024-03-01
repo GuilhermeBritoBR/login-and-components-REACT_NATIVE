@@ -6,7 +6,7 @@ import {styles} from '../styles/Stylesheet'
 export default function Header() {
     return(
         <View style={styles.blocos}>
-            <Text style={styles.titulo}>Medical Group SP</Text>
+            <Text style={styles.titulo}>EMBRAER</Text>
         </View>
     );
 };
