@@ -44,5 +44,9 @@ export const styles = StyleSheet.create({
         opacity: 0.7,
         backgroundColor: 'black',
         width: '100%',
+    },
+    img: {
+        width: 69,
+        height: 35,
     }
 })
