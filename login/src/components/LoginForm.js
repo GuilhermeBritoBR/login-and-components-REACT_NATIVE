@@ -20,8 +20,10 @@ export default function LoginForm() {
       <TextInput
       placeholder='Digite sua senha..'
       secureTextEntry={true}
-      style={styles.caixa}
+      style={[styles.caixa,{}]}
       placeholderTextColor={'black'}
+      
+      
 
       />
     
