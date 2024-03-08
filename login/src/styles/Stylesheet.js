@@ -3,13 +3,15 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     titulo: {
         fontSize: 24,
-        color: 'black'
+        color: 'black',
+        fontWeight: 'bold',
     },
     blocos: {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
         display:'flex',
+        
     },
     container: {
         flex: 1,
@@ -17,6 +19,13 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         display: 'flex',
        
+      },
+      HeaderandFooter:{
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        display:'flex',
+        backgroundColor:'green',
       },
     caixa: {
         backgroundColor: 'white', 
@@ -48,6 +57,6 @@ export const styles = StyleSheet.create({
     },
     img: {
         width: 69,
-        height: 35,
-    }
+        height: 45,
+    },
 })

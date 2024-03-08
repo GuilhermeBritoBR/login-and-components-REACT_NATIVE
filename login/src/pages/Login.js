@@ -17,18 +17,14 @@ export default function Login() {
       
       <View style={styles.container}>
       {/* <LoginImageBackground> */}
-      <ImageBackground
-  source={imagem}
-  resizeMode='cover'
-  style={styles.background}
-  imageStyle= {{opacity:0.3}}
-  >
+      <LoginImageBackground>
+        
       <Header/>  
       <LoginForm/>
       <Footer/>
       
       <StatusBar/>
-      </ImageBackground>
+      </LoginImageBackground>
       </View>
 
     );

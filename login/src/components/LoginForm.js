@@ -30,6 +30,7 @@ export default function LoginForm() {
     <Button
     title='Entrar'
     onPress={starter}
+    color={'green'}
     />
     </View>
     );
